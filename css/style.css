@@ -2301,7 +2301,17 @@ blockquote {
 }
 
 
-/*----added
+
+
+
+
+
+
+
+
+
+
+
 
 #banner-logo {
     width: 300px; 
@@ -2311,4 +2321,67 @@ blockquote {
 #navigation-logo {
     width: 240px; 
     height: auto;
+}
+
+
+
+
+
+/* General styling for larger screens */
+#banner-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.section-heading h1, .section-heading h2 {
+    font-size: 1.5rem;
+}
+
+.button {
+    margin-top: 20px;
+}
+
+/* Styling for tablets and smaller screens */
+@media (max-width: 768px) {
+    #banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-heading h1 {
+        font-size: 1.2rem;
+    }
+
+    .section-heading h2 {
+        font-size: 1rem;
+    }
+
+    .button {
+        font-size: 0.9rem;
+    }
+}
+
+/* Styling for phones */
+@media (max-width: 480px) {
+    #banner-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-heading h1 {
+        font-size: 1rem;
+    }
+
+    .section-heading h2 {
+        font-size: 0.9rem;
+    }
+
+    iframe {
+        height: 200px;
+    }
+
+    .button {
+        font-size: 0.8rem;
+    }
 }

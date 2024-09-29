@@ -2328,3 +2328,14 @@ blockquote {
 }
 
 
+/*----added
+
+#banner-logo {
+    width: 150px; 
+    height: auto; 
+}
+
+#navigation-logo {
+    width: 120px; 
+    height: auto;
+}

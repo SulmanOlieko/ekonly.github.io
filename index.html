@@ -28,6 +28,27 @@
 
     <!--Google Webfonts-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <style>
+        .row {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .col-6 {
+            width: 48%;
+        }
+
+        @media (max-width: 768px) {
+            .row {
+                flex-direction: column;
+            }
+            .col-6 {
+                width: 100%;
+            }
+        }
+    </style>
+
 </head>
 <body>
 
@@ -132,7 +153,7 @@
         <!--Banner Content-->
         <div id="banner-content" class="row clearfix">
 
-            <div class="col-38">
+            <div class="col-6">
 
                 <div class="section-heading">
                     <h1>Empowering decision-making through expert research solutions</h1>
@@ -145,11 +166,7 @@
                 <!--End Call to Action-->
 
             </div> <!-- End col-38 -->
-
-        </div> <!-- End of banner-content -->
-
-    </header> <!-- End header -->
-
+            
     <!-- OUR FOCUS Section -->
     <aside id="services" class="scrollto clearfix">
 
@@ -195,6 +212,13 @@
 
     </aside>
     <!-- End of OUR FOCUS Section -->
+
+            
+        </div> <!-- End of banner-content -->
+
+    </header> <!-- End header -->
+
+
 
     <!--Main Content Area-->
     <main id="content">

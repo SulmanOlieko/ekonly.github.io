@@ -731,7 +731,7 @@ h6 {
 /* Section Headings */
 
 .section-heading {
-    padding: 0 0 15px 0;
+    padding: 0 0 10px 0;
 }
 
 .section-subtitle {
@@ -740,7 +740,7 @@ h6 {
 }
 
 .section-heading h3 {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
     color: #ccc;
     letter-spacing: 2px;
